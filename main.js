@@ -22,6 +22,11 @@ function handleSubmit(event) {
   alert("Thank you for submitting the form!");
   // Reset the form
   event.target.reset();
+
+  // Log the form submission to the console
+  console.log("Name: " + nameInput.value);
+  console.log("Email: " + emailInput.value);
+  
 }
 
 // Add event listeners when the DOM content is loaded
